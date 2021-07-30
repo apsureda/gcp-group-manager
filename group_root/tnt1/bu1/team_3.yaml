@@ -1,0 +1,20 @@
+- name: cigroups-app3
+  description: Application 3 developers
+  owners:
+  - Donald.Knuth@apszaz.com
+  managers:
+  - Dennis.Ritchie@apszaz.com
+  - Brian.Kernighan@apszaz.com
+  members:
+  - Leslie.Lamport@apszaz.com
+  - Robert.Morris@apszaz.com
+- name: cigroups-app4
+  description: Application 4 developers
+  owners:
+  - Ada.Lovelace@apszaz.com
+  managers:
+  - Dennis.Ritchie@apszaz.com
+  - Brian.Kernighan@apszaz.com
+  members:
+  - Leslie.Lamport@apszaz.com
+  - Robert.Morris@apszaz.com

@@ -1,0 +1,6 @@
+gcs_bucket: ${iac_bucket}
+gcs_prefix: ci-groups
+gcp_billing_account_id: ${gcp_billing_account_id}
+group_domain: ${group_domain}
+group_parent: ${group_parent}
+tf_service_account: ${tf_service_account}

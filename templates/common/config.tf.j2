@@ -1,0 +1,19 @@
+{# Copyright 2021 Google LLC. This software is provided as-is, without warranty or #}
+{# representation for any use or purpose. Your use of it is subject to your        #}
+{# agreement with Google.                                                          #}
+terraform {
+  backend "gcs" {
+    bucket = "{{ context.gcs_bucket }}"
+    prefix = "{{ context.gcs_prefix }}"
+  }
+
+  required_providers {
+    google = {
+      version = "~> 3.76"
+    }
+  }
+}
+
+provider "google" {
+  impersonate_service_account = var.terraform_service_account
+}

@@ -1,0 +1,10 @@
+- name: cigroups-app2
+  description: Application 2 developers
+  owners:
+  - James.Gosling@apszaz.com
+  managers:
+  - Dennis.Ritchie@apszaz.com
+  - Brian.Kernighan@apszaz.com
+  members:
+  - Leslie.Lamport@apszaz.com
+  - Robert.Morris@apszaz.com

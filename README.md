@@ -39,10 +39,7 @@ The source repository you are seeing right now contains the following folders:
  * `group_root`: contains a few sample group counfiguration files.
  * `config` and `terraform`: empty folders that will be removed at some point.
 
-See a demo of the tool in action [here](https://youtu.be/BUZrhWfsMZ0):
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BUZrhWfsMZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+See a demo of the tool in action [here](https://youtu.be/BUZrhWfsMZ0).
 
 ## Setup instructions
 
